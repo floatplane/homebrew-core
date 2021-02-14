@@ -13,6 +13,7 @@ class Annie < Formula
     sha256 cellar: :any_skip_relocation, high_sierra:   "2187f28963dc9493cf35d9014eead0919e27ef77072f705787b6bd7d446ce03f"
   end
 
+  depends_on "ffmpeg"
   depends_on "go" => :build
 
   def install
